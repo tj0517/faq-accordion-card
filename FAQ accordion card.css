@@ -1,0 +1,69 @@
+body
+{
+min-height: 100vh;  
+background-image: linear-gradient(180deg, rgba(171, 104, 233, 1) 10%, rgba(100, 100, 232, 1) 100%);
+}
+#container
+{
+ width: 70vw;
+ height: 40vw;
+ margin-left: auto;
+ margin-right: auto; 
+ background-color: white;  
+ border-radius: 2vw;
+margin-top: 4.5vw;
+}
+.p
+{
+float:left;
+height: 40vw;
+width:35vw;
+}
+#p1
+{
+border-bottom-left-radius: 2vw;
+border-top-left-radius: 2vw;
+overflow:hidden;
+background-image: url(faq-accordion-card-main/faq-accordion-card-main/images/bg-pattern-desktop.svg);
+background-position: relative;
+background-position-x: -50vw;
+background-repeat: no-repeat;
+background-size:80vw;
+background-position-y:-25vw;
+}
+#obrazek1>img
+{
+position: absolute;
+top: 21vw;
+width: 15vw;
+left: 7vw;
+}
+#p2
+{
+    float: right;
+border-bottom-right-radius: 2vw;
+border-top-right-radius: 2vw;
+}
+#obrazek2
+{
+    overflow: hidden;
+    margin-top:7vw;
+}
+#obrazek2>img
+{
+width: 35vw;
+margin-left: -5vw;
+}
+.text
+{
+color: black;
+font-family: 'Kumbh Sans', sans-serif; 
+font-size: 1vw;   
+}
+#faq
+{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;  
+    margin-top: 2vw;
+    font-size: 3vw;
+}
